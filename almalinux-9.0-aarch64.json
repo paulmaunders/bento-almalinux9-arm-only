@@ -68,7 +68,6 @@
       "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E sh -eux '{{.Path}}'",
       "expect_disconnect": false,
       "scripts": [
-        "{{template_dir}}/_common/motd.sh",
         "{{template_dir}}/_common/sshd.sh",
         "{{template_dir}}/_common/vagrant.sh",
         "{{template_dir}}/_common/virtualbox.sh",
