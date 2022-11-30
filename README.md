@@ -1,5 +1,5 @@
 # bento-almalinux9-arm-only
-These scripts are a basic version of a [Bento's](https://github.com/chef/bento) packer template for building an almalinux 9 box for m1/m2 arm Macs.
+These scripts are a basic version of [Bento's](https://github.com/chef/bento) packer template for building an almalinux 9 box for m1/m2 arm Macs.
 
 It fixes the SSH key insertion in `vagrant.sh` which otherwise fails as a result of the reboot happening in `update.sh`. Presumably this is because the network is not ready when it tries to download the vagrant key.
 
