@@ -1,5 +1,5 @@
 # bento-almalinux9-arm-only
-A basic version of a Bento packer template for building almalinux 9 arm only. 
+A basic version of a [Bento](https://github.com/chef/bento) packer template for building almalinux 9 arm only. 
 
 Using this to test the SSH key insertion step.
 
